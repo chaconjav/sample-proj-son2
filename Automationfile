@@ -10,7 +10,7 @@ pipeline {
   }
 
   stages {
-    stage('Practical Jenkins Sonarqube') {
+    stage('PHP Unit Test') {
       steps {
         echo 'Running PHPUnit...'
         sh '/bin/phpunit ${WORKSPACE}/src'
