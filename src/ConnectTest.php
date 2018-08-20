@@ -1,5 +1,5 @@
 <?php
-//require_once('Connect.php');
+require_once('Connect.php');
 use PHPUnit\Framework\TestCase;
 
 //class RemoteConnectTest extends PHPUnit_Framework_TestCase
